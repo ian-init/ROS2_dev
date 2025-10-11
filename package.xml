@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <package format="3">
-  <name>battery_publisher</name>
+  <name><!-- workspace name--></name>
   <version>0.0.1</version>
-  <description>Battery level publisher node</description>
-  <maintainer email="you@example.com">You</maintainer>
-  <license>MIT</license>
+  <description>Text</description>
+  <maintainer email="email@emai.com">Text</maintainer>
+  <license>Text</license>
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- All required packages named in CMake should listed below -->
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <export>

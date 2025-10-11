@@ -3,7 +3,7 @@ FROM ubuntu
 
 # 1. Set locale and clean up (single RUN command)
 RUN apt-get update && \
-    apt-get install -y locales software-properties-common lsb-release gnupg curl && \
+    apt-get install -y locales software-properties-common lsb-release gnupg curl nano && \
     locale-gen en_US en_US.UTF-8 && \
     update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8 && \
     add-apt-repository universe
