@@ -17,6 +17,7 @@ Fodler struucture:
 ```
 
 Flow:
+```
 source /opt/ros/jazzy/setup.bash && \ <!-- The path is set in Docker config, we can skip this -->
 mkdir -p ~/<workspace_name>/src && \ <!-- create folders as needed and then create the necessary files -->
 cd ~/<workspace_name>
@@ -25,3 +26,4 @@ nano create publish.cpp, ...CMakeLists.txt, package.xml
 cd ~/<workspace_name> && colcon build && \ <!-- build the workspace at the workspace root folder -->
 source install/setup.bash && \ <!-- initializes the workspace environment -->
 ros2 run <workspace_name> <executable_name> <!-- execute the node-->
+```
